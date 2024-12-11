@@ -13,11 +13,11 @@ setuptools.setup(
     "Intended Audience :: Developers",
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
-	  "Topic :: Utilities"
+    "Topic :: Utilities"
   ],
   python_requires=">=3.8",
   install_requires=["flask", "requests"],
   packages=setuptools.find_packages(),
   include_package_data=True,
-  entry_points={"console_scripts": ["flowde = flowde.cli:main"]}
+  entry_points={"console_scripts": ["multaneous = multaneous.cli:main"]}
 )
