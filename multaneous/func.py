@@ -1,6 +1,5 @@
 import subprocess
 import requests
-from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 def tempc(c: int = None, f: int = None, cboth: bool = None):
   if c is not None:
