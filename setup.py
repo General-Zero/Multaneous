@@ -16,7 +16,7 @@ setuptools.setup(
     "Topic :: Utilities"
   ],
   python_requires=">=3.8",
-  install_requires=["flask", "requests"],
+  install_requires=["requests"],
   packages=setuptools.find_packages(),
   include_package_data=True,
   entry_points={"console_scripts": ["multaneous = multaneous.cli:main"]}
