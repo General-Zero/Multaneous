@@ -4,7 +4,7 @@ setuptools.setup(
   name="Multaneous",
   version="0.0.1",
   description="A multi-purpose digital library made to multi assist you.",
-  long_description=pathlib.PATH('README.md').read_text(),
+  long_description=pathlib.Path('README.md').read_text(),
   long_description_content_type="text/markdown",
   author="General Zero",
   author_email="GeneralZeroCosmo@gmail.com",
