@@ -22,4 +22,4 @@ classifier=[
 ],
 keywords=["multaneous", "Multaneous", "MULTANEOUS"],
 script={multaneous = "multaneous.cli:main"},
-dependencies=["flask", "requests"]
+dependencies=["requests"]
