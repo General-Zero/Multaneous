@@ -9,7 +9,7 @@ setuptools.setup(
   author="General Zero",
   author_email="GeneralZeroCosmo@gmail.com",
   license="Apache Software License 2.0",
-  classifier=[
+  classifiers=[
     "Intended Audience :: Developers",
     "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
