@@ -4,6 +4,7 @@ requires = [
   "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
 [project]
 name = "Multaneous"
 authors = [
@@ -18,9 +19,14 @@ classifiers = [
   "Intended Audience :: Developers",
   "License :: OSI Approved :: Apache Software License",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
   "Topic :: Software Development :: Libraries"
 ]
 keywords = ["multaneous"]
 dependencies = ["requests"]
-[project.entry_points.console_scripts]
+
+[project.scripts]
 multaneous = "multaneous.cli:main"
