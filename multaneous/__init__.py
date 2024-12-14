@@ -1,1 +1,1 @@
-from func import tempc, emailvalidate, RHTTPServer
+from .func import tempc, emailvalidate, RHTTPServer
